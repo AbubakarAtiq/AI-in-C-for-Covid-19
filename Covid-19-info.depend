@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1589149608 source:e:\covid-19-info\covid-19-info.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+	<string.h>
+	<fstream>
+	<direct.h>
+	<conio.h>
+	<wingdi.h>
+

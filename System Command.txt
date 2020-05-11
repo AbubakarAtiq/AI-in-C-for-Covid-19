@@ -1,0 +1,98 @@
+#include<iostream>
+#include<windows.h>
+int main()
+{
+/*
+1. system("Cls");
+2.system("Pause");
+3.Sleep(1000);
+4.0-9...text
+5.a-f(background)
+6.system("Date");
+7.system("Time");
+8.system("xcopy filename path where we want to paste ");
+9.system("xcopy . D:/");
+10.//Compare two files system("comp");
+11.system("cmd /c start "that links you want to open");
+12. system("Color");
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+
+*/
+}
+//How to ask you or no from the user inorder to execute next command in c++
+ char choice;
+    while(true)
+    {
+        cout<<"Would you like to perform other calculation?(Y/N)"<<endl;
+        cin >> choice;
+        if(choice == 'Y'|| choice =='y'){
+        return true;
+        }else if(choice =='N'||choice =='n'){
+        return false;
+        }
+    }
+
+    /*int choice1;
+    while(true)
+    {
+
+        //Third question
+    cout<<"If you don't mind i'm going open youtube,Let me show you how corona virus sound like\nPress Enter on next command"<<endl;
+    //open youtube corona virus song by niki
+        cout<<"I hope you didn't mind if i open youtube(Y/N)"<<endl;
+        cin>>choice1;
+
+        if(choice1 == 'Y'|| choice1 =='y'){
+        return true;
+        }else if(choice1 =='N'||choice1 =='n'){
+        return false;
+        }
+        char choice1=system("cmd /c start https://youtu.be/Eufjp7T6PVk");
+        return 0;
+    }
+    */---Remember this coding to open website in C++
+    /*int choice2;
+    while(true)
+    {
+
+        //Third question
+    cout<<"If you don't mind i'm going open youtube,Let me show you how corona virus sound like\nPress Enter on next command"<<endl;
+    //open youtube corona virus song by niki
+        cout<<"I hope you didn't mind if i open youtube(Y/N)"<<endl;
+        cin>>choice2;
+
+        if(choice2 == 'Y'|| choice2 =='y'){
+        return true;
+        }else if(choice2 =='N'||choice2 =='n'){
+        return false;
+        }
+        char choice2=system("cmd /c start https://www.worldometers.info/coronavirus/countries-where-coronavirus-has-spread/");
+        system("pause");
+        return 0;
+    }
+    */
