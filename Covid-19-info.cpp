@@ -21,8 +21,9 @@ public:
     {
         cout<<"--------------------------------Welcome to this Program Covid-19,2020--------------------------------"<<endl;
         cout<<"--------------------------------Written By A.Atiq,---------------------------------------------------"<<endl;
-        cout<<"--------------------------------Version 1.0.0---------------------------------------------------------\nI'm AI written in C++, I can answer some question for you related to this virus"<<endl;
-        cout<<"----------------------------Copyright.Abubakar Atiq(2020)[May 10,3:14PM]-----------------------------"<<endl;
+        cout<<"--------------------------------Version 1.0.0---------------------------------------------------------"<<endl;
+        cout<<"I'm AI written in C++, I can answer some question for you related to this virus"<<endl;
+        cout<<"----------------------------(Copyright.Abubakar Atiq,2020)[May 10,3:14PM]-----------------------------"<<endl;
     }
 };
 class reason
@@ -161,10 +162,10 @@ int main()
     cout<<"\n"<<username<<"!,"<<"Read this website carefully,it show how many nations are suffering with just one carelessness"<<endl;
     cout<<"There are few things,you should know before going-outside your place,"<<username<<","<<"Let's "<<Start<<endl;
     loadingData myloadingData;//object created
-    myloadingData.main();//call
+    myloadingData.main();//call the above created object to display the function
 <<<<<<< HEAD
 
-    //Make obejct
+    //Make object
     goingOutside mygoingOutside;//object created
     mygoingOutside.displayMessage5();//call the object to display function
           cout<<"Please it My humble request,kindly read above mentioned instruction.Before going outside"<<endl;
@@ -180,4 +181,5 @@ int main()
     goingOutside mygoingOutside;//Created object
     mygoingOutside.displayMessage5();//call the
 >>>>>>> f2d98a2b95450c0bda679432bf1a3b55401ace65
+cout<<"Run this code block,for compliing"<<endl;
 }
