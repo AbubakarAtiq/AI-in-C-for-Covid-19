@@ -143,5 +143,7 @@ int main()
     cout<<"\n"<<username<<"!,"<<"Read this website carefully,it show how many nations are suffering with just one carelessness"<<endl;
     cout<<"There are few things,you should know before going-outside your place,"<<username<<","<<"Let's "<<Start<<endl;
     loadingData myloadingData;//object created
-    myloadingData.main();//call
+    myloadingData.main();//call the object to function
+    goingOutside mygoingOutside;//created the object
+    mygoingOutside.displayMessage5();//call the above created object to display message
 }
