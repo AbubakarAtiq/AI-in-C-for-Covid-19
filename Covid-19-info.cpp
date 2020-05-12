@@ -70,8 +70,11 @@ class goingOutside
 public:
     void displayMessage5()
     {
-        cout<<"Kindly read these Instructions and stay safe,stay home"<<endl;
-        cout<<"Make sure your device is connected to the internet,just a sec"<<endl;
+        cout << "Kindly read these Instructions and stay safe,stay home" << endl;
+        cout << "Make sure your device is connected to the internet,just a sec," << "It will open in few minutes" << endl;
+        system("pause");
+        system("cmd /c start www.google.com/Corona-instruction"); 
+
     }
 };
 class loadingData//It work, modify it
