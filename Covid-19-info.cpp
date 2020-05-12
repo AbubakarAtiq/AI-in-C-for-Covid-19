@@ -1,3 +1,5 @@
+/*//My other-github-userName-is@Abubakar-Atiq-2
+52757937+AbubakarAtiq@users.noreply.github.com*/
 #include<iostream>
 #include<windows.h>
 #include<stdio.h>
@@ -72,6 +74,11 @@ public:
     {
         cout<<"Kindly read these Instructions and stay safe,stay home"<<endl;
         cout<<"Make sure your device is connected to the internet,just a sec"<<endl;
+        system("pause");
+        system("cmd /c start https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/about-non-medical-masks-face-coverings.html");
+
+
+        //Creat its object
     }
 };
 class loadingData//It work, modify it
@@ -141,4 +148,7 @@ int main()
     cout<<"There are few things,you should know before going-outside your place,"<<username<<","<<"Let's "<<Start<<endl;
     loadingData myloadingData;//object created
     myloadingData.main();//call
+    //Make obejct
+    goingOutside mygoingOutside;//object created
+    mygoingOutside.displayMessage5();//call the object to display function
 }
