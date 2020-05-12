@@ -1,32 +1,10 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+Covid-19-info.cpp
+*.bmarks
+*.cbp
+*.bmarks
+Covid-19-info.cbp
+Covid-19-info.cpp
+Covid-19-info.exe
+LICENSE
+Covid-19-info.depend
