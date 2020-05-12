@@ -13,6 +13,7 @@
 #include<wctype.h>
 using namespace std;
 //First we should make class for welcome message
+/*Changes will be made when i repeat,when*/
 class welcomeMessage
 {
 public:
