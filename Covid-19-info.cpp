@@ -78,6 +78,7 @@ public:
         cout<<"Make sure your device is connected to the internet,just a sec"<<endl;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         system("pause");
         system("cmd /c start https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/about-non-medical-masks-face-coverings.html");
 
@@ -86,6 +87,8 @@ public:
         cout<<"You are about to see instruction given by W.H.O"<<endl;
         system("pause");
         system("cmd /c start https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public");
+=======
+>>>>>>> f2d98a2b95450c0bda679432bf1a3b55401ace65
         cout<<"You are about to see instruction given by W.H.O"<<endl;
         system("pause");
         system("cmd /c start https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public");
@@ -158,6 +161,7 @@ int main()
     cout<<"There are few things,you should know before going-outside your place,"<<username<<","<<"Let's "<<Start<<endl;
     loadingData myloadingData;//object created
     myloadingData.main();//call
+<<<<<<< HEAD
 
     //Make obejct
     goingOutside mygoingOutside;//object created
@@ -170,4 +174,9 @@ int main()
     goingOutside mygoingOutside;//Created object
     mygoingOutside.displayMessage5();//call the
 //Let's see,what changes are made.
+=======
+    cout<<"Thanks for testing it,"<<username<<endl;
+    goingOutside mygoingOutside;//Created object
+    mygoingOutside.displayMessage5();//call the
+>>>>>>> f2d98a2b95450c0bda679432bf1a3b55401ace65
 }
